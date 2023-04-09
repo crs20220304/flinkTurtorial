@@ -24,7 +24,7 @@ public class TransformCustomRepartitionTest {
             public Integer getKey(Integer integer) throws Exception {
                 return integer;
             }
-        }).print("Repartition").setParallelism(4);
+        }).print("Repartition2").setParallelism(4);
 
         env.execute();
     }
